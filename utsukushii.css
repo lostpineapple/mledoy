@@ -59,14 +59,14 @@ h1:hover {
 }
 
 @keyframes rotaate {
-  100% { transform: rotate3d(0.5, 0.5, 0.5, 360deg); }
-  /* 100% { transform: rotate(360deg); } */
+  /* 100% { transform: rotate3d(0.5, 0.5, 0.5, 360deg); } */
+  100% { transform: rotate(360deg); }
 }
 
 #gigachad {
   position: fixed;
-  height: 640px;
-  width: 570px;
+  height: 518px;
+  width: 456px;
   top: 10%;
   left: 0;
   animation: rotaate 10s linear 0s infinite;
