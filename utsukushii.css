@@ -43,12 +43,10 @@ p {
 }
 
 h1 {
-  /* font-family: 'Notable', sans-serif; */
   font-size: 80px;
   position: fixed;
   top: 5%;
   right: 10%;
-  /* position: absolute; */
   text-align: center;
   align-self: center;
   color: black;
@@ -61,7 +59,8 @@ h1:hover {
 }
 
 @keyframes rotaate {
-  100% { transform: rotate3d(0.5, 0.5, 0.5, 360deg); left: 100px; }
+  /* 100% { transform: rotate3d(0.5, 0.5, 0.5, 360deg); } */
+  100% { transform: rotate(360deg); }
 }
 
 #gigachad {
@@ -69,6 +68,7 @@ h1:hover {
   height: 640px;
   width: 570px;
   top: 10%;
+  left: 0;
   animation: rotaate 10s linear 0s infinite;
 }
 
